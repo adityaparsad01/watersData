@@ -1,0 +1,27 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.headers {
+  text-align: center;
+  background-color: chocolate;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.drop-down {
+  margin-top: 10px;
+  text-align: center;
+  background-color: chocolate;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+drop-down select {
+  background-color: forestgreen;
+}
